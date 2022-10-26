@@ -1,0 +1,19 @@
+.nav {
+    min-height: 3vw;
+    padding: 10px;
+    background: #2DD4BF;
+    color: #000;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.nav ul li a {
+    margin: 5px 15px;
+}
