@@ -7,6 +7,10 @@
     text-decoration: none;
 }
 
+.home {
+    font-size: 3rem;
+}
+
 .description {
     justify-content: left;
 }

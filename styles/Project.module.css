@@ -1,0 +1,9 @@
+.project {
+    min-height: 3vw;
+    width: 300px;
+    padding: 10px;
+    border: 5px black;
+    margin: 0;
+    align-items: center;
+    justify-content: flex-start;
+}
