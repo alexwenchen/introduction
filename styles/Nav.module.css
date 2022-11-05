@@ -1,7 +1,7 @@
 .nav {
-    min-height: 3vw;
-    padding: 10px;
-    background: #2DD4BF;
+    max-height: 2vh;
+    padding-top: 1%;
+    background: #66ffd9;
     color: #000;
     align-items: center;
     justify-content: flex-start;
@@ -16,4 +16,6 @@
 
 .nav ul li a {
     margin: 5px 15px;
+    font-weight: 500;
+    font-size: large;
 }

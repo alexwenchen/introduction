@@ -1,5 +1,6 @@
 .greeting {
     font-size: 4rem;
+    font-weight: bold;
 }
 
 .greeting span {
@@ -7,8 +8,10 @@
     text-decoration: none;
 }
 
-.home {
+.category {
     font-size: 3rem;
+    font-weight: 500;
+    color: darkblue;
 }
 
 .description {
