@@ -1,3 +1,17 @@
+.introduction {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    margin-top: 2.5%;
+    margin-left: auto;
+}
+
 .greeting {
     font-size: 4rem;
     font-weight: bold;

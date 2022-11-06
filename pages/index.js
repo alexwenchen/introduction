@@ -2,6 +2,7 @@ import homeStyles from '../styles/Home.module.css'
 import Head from 'next/head'
 import Project from '../components/Project.js'
 import Website from '../components/Website.js'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -9,10 +10,18 @@ export default function Home() {
       <Head>
         <title>Introduction</title>
       </Head>
-      <div>
+      <div className={homeStyles.introduction}>
         <h1 className={homeStyles.greeting}>
           Hi, I'm <span> Alex Chen </span>
         </h1>
+        <div className={homeStyles.socials}> 
+          <Link href="https://github.com/alexwenchen"> 
+            <img class="h-12 w-12 cursor-pointer" src="https://cdn-icons-png.flaticon.com/512/25/25231.png"/>
+          </Link>
+          <Link href="https://www.linkedin.com/in/wen-chen-3006ba1a5/"> 
+            <img class="h-12 w-12 cursor-pointer" src="https://cdn-icons-png.flaticon.com/512/174/174857.png"/>
+          </Link>
+        </div>
       </div>
       <p className={homeStyles.description}>
         I am currently studying computer science (Turing Scholars Honors) at the University of Texas at Austin. <br/> I love competitive programming, and enjoy doing
