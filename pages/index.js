@@ -25,7 +25,7 @@ export default function Home() {
       </div>
       <p className={homeStyles.description}>
         I am currently studying computer science (Turing Scholars Honors) at the University of Texas at Austin. I love competitive programming, <br/> and enjoy doing
-        machine learning and app development. I'm currently seeking internship opportunities for the summer of 2023.
+        machine learning and app development. I&apos;m currently seeking internship opportunities for the summer of 2023.
         <br/>
         <br/>
         You can contact me at walx@utexas.edu.
