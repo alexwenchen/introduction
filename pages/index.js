@@ -24,8 +24,8 @@ export default function Home() {
         </div>
       </div>
       <p className={homeStyles.description}>
-        I am currently studying computer science (Turing Scholars Honors) at the University of Texas at Austin. <br/> I love competitive programming, and enjoy doing
-        machine learning and app development. <br/> I'm currently seeking internship opportunities for the summer of 2023.
+        I am currently studying computer science (Turing Scholars Honors) at the University of Texas at Austin. I love competitive programming, <br/> and enjoy doing
+        machine learning and app development. I'm currently seeking internship opportunities for the summer of 2023.
       </p> 
       <h1 className={homeStyles.category}>
         Projects
@@ -39,9 +39,9 @@ export default function Home() {
         }}
       />
       <br/>
-      <Project title="Tetris" link="https://gitfront.io/r/WenAlexChen/QLzW4V4FTkeQ/Tetris/"/>
-      <Project title="Boggle" link="https://gitfront.io/r/WenAlexChen/L46xDXNMP5zH/Boggle/"/>
-      <Project title="Critters" link="https://gitfront.io/r/WenAlexChen/7Vcbvcr2AGyH/Critters/"/>
+      <Project title="Tetris" link="https://gitfront.io/r/WenAlexChen/QLzW4V4FTkeQ/Tetris/" description="Recreated the popular video game 'Tetris', and built an AI using a genetic algorithm to play it"/>
+      <Project title="Boggle" link="https://gitfront.io/r/WenAlexChen/L46xDXNMP5zH/Boggle/" description="Recreated the popular word game 'Boggle'"/>
+      <Project title="Critters" link="https://gitfront.io/r/WenAlexChen/7Vcbvcr2AGyH/Critters/" description="Created an interpreter for a custom “Critter” language containing goto statements, registers, and if statements"/>
       <br />
       <br />
       <h1 className={homeStyles.category}>
@@ -56,7 +56,7 @@ export default function Home() {
         }}
       />
       <br/>
-      <Project title="Computing Olympiad Code Repository" link="https://github.com/alexwenchen/CompetitiveProgrammingSolutions"/> 
+      <Project title="Computing Olympiad Code Repository" link="https://github.com/alexwenchen/CompetitiveProgrammingSolutions" description="My solutions to olympiad programming competition problems"/> 
       <Website imageLink="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Codeforces_logo.svg/2560px-Codeforces_logo.svg.png" link="https://codeforces.com/profile/Alx"/>
       <Website imageLink="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/LeetCode_Logo_black_with_text.svg/1280px-LeetCode_Logo_black_with_text.svg.png" link="https://leetcode.com/looking_for_swe_internships/"/>
     </div>
