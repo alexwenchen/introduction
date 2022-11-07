@@ -16,7 +16,7 @@ export default function Home() {
         </h1>
         <div className={homeStyles.socials}> 
           <Link href="https://github.com/alexwenchen"> 
-            <img class="h-12 w-12 cursor-pointer" src="https://cdn-icons-png.flaticon.com/512/25/25231.png"/>
+            <img class="h-12 w-12 cursor-pointer" src="https://www.nicepng.com/png/full/52-520535_free-files-github-github-icon-png-white.png"/>
           </Link>
           <Link href="https://www.linkedin.com/in/wen-chen-3006ba1a5/"> 
             <img class="h-12 w-12 cursor-pointer" src="https://cdn-icons-png.flaticon.com/512/174/174857.png"/>
@@ -26,6 +26,9 @@ export default function Home() {
       <p className={homeStyles.description}>
         I am currently studying computer science (Turing Scholars Honors) at the University of Texas at Austin. I love competitive programming, <br/> and enjoy doing
         machine learning and app development. I'm currently seeking internship opportunities for the summer of 2023.
+        <br/>
+        <br/>
+        You can contact me at walx@utexas.edu.
       </p> 
       <h1 className={homeStyles.category}>
         Projects
@@ -45,7 +48,7 @@ export default function Home() {
       <br />
       <br />
       <h1 className={homeStyles.category}>
-        Competitive programming
+        Competitive Programming
       </h1>
       <hr
         style={{

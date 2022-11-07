@@ -1,7 +1,7 @@
 .nav {
     max-height: 2vh;
     padding-top: 1%;
-    background: #66ffd9;
+    background: #001440;
     color: #000;
     align-items: center;
     justify-content: flex-start;
@@ -18,4 +18,5 @@
     margin: 5px 15px;
     font-weight: 500;
     font-size: large;
+    color: white;
 }

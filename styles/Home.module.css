@@ -15,17 +15,18 @@
 .greeting {
     font-size: 4rem;
     font-weight: bold;
+    color: white;
 }
 
 .greeting span {
-    color: #0070f3;
+    color: lightgreen;
     text-decoration: none;
 }
 
 .category {
     font-size: 3rem;
     font-weight: 500;
-    color: darkblue;
+    color: lightpink;
 }
 
 .description {
@@ -36,4 +37,5 @@
     margin: 4rem 0;
     line-height: 1.5;
     font-size: 1.5rem;
+    color: white;
 }
