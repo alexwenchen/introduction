@@ -45,6 +45,7 @@ export default function Home() {
       <Project title="Tetris" link="https://gitfront.io/r/WenAlexChen/QLzW4V4FTkeQ/Tetris/" description="Recreated the popular video game 'Tetris', and built an AI using a genetic algorithm to play it"/>
       <Project title="Boggle" link="https://gitfront.io/r/WenAlexChen/L46xDXNMP5zH/Boggle/" description="Recreated the popular word game 'Boggle'"/>
       <Project title="Critters" link="https://gitfront.io/r/WenAlexChen/7Vcbvcr2AGyH/Critters/" description="Created an interpreter for a custom “Critter” language containing goto statements, registers, and if statements"/>
+      <Project title="Introduction" link="https://github.com/alexwenchen/Introduction" description="This website, built with NextJS and Tailwind CSS"/>
       <br />
       <br />
       <h1 className={homeStyles.category}>
