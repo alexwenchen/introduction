@@ -2,6 +2,5 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## TODO:
 
-- View count
-- Github, linkedin icons next to "I'm Alex Chen"
-- Descriptions for projects
+- view count
+- favicon
