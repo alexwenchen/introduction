@@ -1,6 +1,7 @@
 import homeStyles from '../styles/Home.module.css'
 import Head from 'next/head'
 import Project from '../components/Project.js'
+import LinklessProject from '../components/LinklessProject.js'
 import Website from '../components/Website.js'
 import Link from 'next/link'
 
@@ -42,10 +43,11 @@ export default function Home() {
         }}
       />
       <br/>
-      <Project title="Tetris" link="https://gitfront.io/r/WenAlexChen/QLzW4V4FTkeQ/Tetris/" description="Recreated the popular video game &apos;Tetris&apos;, and built an AI using a genetic algorithm to play it"/>
-      <Project title="Boggle" link="https://gitfront.io/r/WenAlexChen/L46xDXNMP5zH/Boggle/" description="Recreated the popular word game &apos;Boggle&apos;"/>
-      <Project title="Critters" link="https://gitfront.io/r/WenAlexChen/7Vcbvcr2AGyH/Critters/" description="Created an interpreter for a custom “Critter” language containing goto statements, registers, and if statements"/>
       <Project title="Introduction" link="https://github.com/alexwenchen/Introduction" description="This website, built with NextJS and Tailwind CSS"/>
+      <Project title="Flexcel Cloud" link="https://github.com/saranchockan/flexcel-cloud/" description="On-hiatus web application to help competitive debators with note-taking. Built with ReactJS."/>
+      <LinklessProject title="Tetris" description="Recreated the popular video game &apos;Tetris&apos;, and built an AI using a genetic algorithm to play it."/>
+      <LinklessProject title="Boggle" description="Recreated the popular word game &apos;Boggle&apos;"/>
+      <LinklessProject title="Critters" description="Created an interpreter for a custom “Critter” language containing goto statements, registers, and if statements"/>
       <br />
       <br />
       <h1 className={homeStyles.category}>
