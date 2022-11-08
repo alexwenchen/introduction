@@ -44,7 +44,7 @@ export default function Home() {
       />
       <br/>
       <Project title="Introduction" link="https://github.com/alexwenchen/Introduction" description="This website, built with NextJS and Tailwind CSS"/>
-      <Project title="Flexcel Cloud" link="https://github.com/saranchockan/flexcel-cloud/" description="On-hiatus web application to help competitive debators with note-taking. Built with ReactJS."/>
+      <Project title="Flexcel Cloud" link="https://github.com/saranchockan/flexcel-cloud/" description="On-hiatus web application to help competitive debaters with note-taking. Built with ReactJS."/>
       <LinklessProject title="Tetris" description="Recreated the popular video game &apos;Tetris&apos;, and built an AI using a genetic algorithm to play it."/>
       <LinklessProject title="Boggle" description="Recreated the popular word game &apos;Boggle&apos;"/>
       <LinklessProject title="Critters" description="Created an interpreter for a custom “Critter” language containing goto statements, registers, and if statements"/>
