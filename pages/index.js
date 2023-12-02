@@ -27,9 +27,6 @@ export default function Home() {
       <p className={homeStyles.description}>
         I am currently studying computer science (Turing Scholars Honors) at the University of Texas at Austin. I love competitive programming, <br/> and enjoy doing
         machine learning and app development.
-        <br/>
-        <br/>
-        You can contact me at walx@utexas.edu.
       </p> 
       <h1 className={homeStyles.category}>
         Projects
