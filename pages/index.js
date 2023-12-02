@@ -25,7 +25,7 @@ export default function Home() {
         </div>
       </div>
       <p className={homeStyles.description}>
-        I am currently studying computer science (Turing Scholars Honors) at the University of Texas at Austin. I love competitive programming, <br/> and enjoy doing
+        I am currently studying computer science (Turing Scholars Honors) at the University of Texas at Austin. I love competitive programming, and enjoy doing
         machine learning and app development.
       </p> 
       <h1 className={homeStyles.category}>
